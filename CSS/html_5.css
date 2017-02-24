@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Microsoft YaHei';
+}
+
+body{
+	background-color: #EEEEEE;
+	padding:0 30px;
+}
+
+#main{                
+	display: inline-block;/*加上行内块元素下面的margin: 0 auto;就失效了*/
+	background-color: #DEDEDE;
+	width: 1280px;
+	margin: 0 auto; 
+	padding-bottom: 20px;
+}
+#header{
+	background-color: #333;
+}
+#header ul{
+	display: inline;
+}
+#header ul li{
+	float: right;
+	margin: 20px 10px 0 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+/*链接点击前的样式*/
+#header ul li a:link,#header ul li a:visited{
+	color:#fff;
+	text-decoration: none;
+}
+/*鼠标放在链接上时的样式*/
+#header ul li a:hover{
+	color:#999797;
+	text-decoration: underline;
+}
+#header img{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#left{
+	float:left;
+}
+
+.mainPage{
+	width: 800px;
+	margin-left:20px;
+	margin-top:20px;
+	padding: 20px;
+	background-color: #fff;
+	font-size: 15px;
+	line-height: 2;
+	/*边框加阴影*/
+	box-shadow: 3px 3px 1px #888888;
+}
+.mainPage h3{
+	color:#7C7A7B;
+}
+.mainPage span{
+	font-weight: bold;
+}
+
+
+
+.note{
+	color:#7C7A7B;
+	font-size: 12px;
+}
+.page{
+	text-indent: 2em;
+	line-height: 1.7;
+}
+
+
+
+.one img{
+	width:300px;
+	margin: 20px 0;
+}
+
+.two ul{
+	list-style-type: none;
+	margin-left: 20px;
+	line-height: 1.7;
+}
+.two img{
+	width:300px;
+	margin: 20px 0;
+}
+
+.picture{
+	display: inline-block;
+	padding-bottom: 40px;
+}
+.picture img{
+	width: 100px;
+	margin:0 auto;
+}
+
+.pic{
+	overflow: hidden;
+	width:100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DEDEDE;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 12px;
+	padding: 10px;
+	text-align: center;
+	float:left;
+}
+
+
+.three ol{
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+
+#example{
+	width: 100%;
+	font-size:12px;
+	border-collapse: collapse;
+}
+#example td,#example th{
+	border:1px solid #EEEEEE;
+	text-align: left;
+}
+#example th{
+	background-color: #333333;
+	color:#FFFFFF;
+}
+#example tr{
+	height:1em;
+}
+#example tr.down{
+	background-color: #EEEEEE;
+	font-weight: bold;
+}
+
+#side{
+	overflow: hidden;
+	width: 340px;
+	background-color: #FFFFFF;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding:20px;
+	/*边框加阴影*/
+	box-shadow: 3px 3px 1px #888888;
+	float:right;
+}
+#side h3{
+	padding-bottom:20px;
+}
+#side h3 span{
+	color:#EEEEEE;
+	font-size:35px;
+}
+#side form{
+	font-size: 13px;
+}
+.frame{
+	margin-top: -2.1em;
+	float:left;
+	margin-left: 40%;
+	clear: both;
+	margin-bottom: 10px;
+}
+.prompt{
+	display: block;
+	float:right;
+	margin-right: 70%;
+	clear: both;
+	margin-bottom: 10px;
+
+}
+.pro{
+	float:left;
+	margin-left: 40%;
+	clear: both;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #AB9891;
+
+}
+#side form textarea{
+	width: 60%;
+	height: 100px;
+}
+
+.sub{
+	width: 100%;
+	padding:10px 0px;
+	background-color: #3355D0;
+	color:#FFFFFF;
+	font-size: 15px;
+	border-radius: 10px;//css3圆角特性
+}
+
+
+
+#foot{
+	width: 1280px;
+	margin:0px auto;
+	padding:20px 0;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 11px;
+}

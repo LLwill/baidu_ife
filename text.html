@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <style type="text/css">
+  	#bu{width: 100%;height: 200px; border-top-left-radius:0.5em 2em;}
+  	.banyuan{margin-left:100px;width:100px;height: 100px; background-color:yellow; border:none;}
+  	.left_top{border-radius: 100px 0 0 0 ;margin-right: -2px;margin-bottom: -4px;}
+  	.right_top{border-radius: 0 100px 0 0 ;margin-left: -2px;margin-bottom: -4px;}
+  	.right_bottom{border-radius: 0 0 100px 0 ;margin-left: -2px;margin-top: -4px;}
+  	.left_bottom{border-radius: 0 0 0 100px ;margin-right: -2px;margin-top: -4px;}
+  </style>
+ </head>
+
+<body>
+
+<h4>横跨两列的单元格：</h4>
+<table border="1">
+<tr>
+  <th>姓名</th>
+  <th colspan="2">电话</th>
+</tr>
+<tr>
+  <td>Bill Gates</td>
+  <td>555 77 854</td>
+  <td>555 77 855</td>
+</tr>
+</table>
+
+<h4>横跨两行的单元格：</h4>
+<table border="1">
+<tr>
+  <th>姓名</th>
+  <td>Bill Gates</td>
+</tr>
+<tr>
+  <th rowspan="2">电话</th>
+  <td>555 77 854</td>
+</tr>
+<tr>
+  <td>555 77 855</td>
+</tr>
+</table>
+
+
+
+<!--一个简单的下拉列表-->
+
+<form>
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+
+
+<!--一个带预选值的下拉列表-->
+
+<form>
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat" selected="selected">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+
+
+
+<form name="input" action="http://w3school.com.cn/html/html_form_action.asp" method="get">
+I have a bike:
+<input type="checkbox" name="vehicle" value="Bike" checked="checked" />
+<br />
+I have a car: 
+<input type="checkbox" name="vehicle" value="Car" />
+<br />
+I have an airplane: 
+<input type="checkbox" name="vehicle" value="Airplane" />
+<br /><br />
+<input type="submit" value="Submit" />
+</form> 
+
+<p>如果您点击 "Submit" 按钮，您将把输入传送到名为 html_form_action.asp 的新页面。</p>
+
+
+
+
+
+<p>
+This example cannot be edited
+because our editor uses a textarea
+for input,
+and your browser does not allow
+a textarea inside a textarea.
+</p>
+
+<textarea rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+<hr>
+<button id="bu">a</button>
+<hr>
+<button class="banyuan left_top"></button>
+<button class="banyuan right_top"></button>
+<br/>
+<button class="banyuan left_bottom"></button>
+<button class="banyuan right_bottom"></button>
+<br>
+ </body>
+</html>
